@@ -1,0 +1,5 @@
+=>Important thing about flutter project
+ -How to create project in vs code using cmd
+step 1=> flutter create project_name
+Step 2=> cd project_name(migrate to the project folder)
+Step 3=> code .(open in vs code)
