@@ -1,0 +1,12 @@
+url launcher problem in flutter
+add below code between </application>...........................................................................</manifest>
+in AndroidManifest.xml
+
+
+<queries>
+        <intent>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:scheme="https" />
+        </intent>
+    </queries>
